@@ -1,0 +1,17 @@
+body {
+    color:white;
+    background-size: cover;
+}
+canvas
+{
+    border:6px solid rgb(0, 187, 255);
+    border-radius:20px;
+    animation-name:example;
+    animation-duration: 3s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 40px aqua;}
+    to{box-shadow: 1px 1px 40px rgb(29, 4, 255);}
+}
